@@ -1,0 +1,61 @@
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.projectSection > h2 {
+    background-color: var(--racingGreen);
+    color: var(--black);
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projectSection > ul {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.project > img {
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project > h3 {
+    color: var(--racingGreen);
+}
+
+.project > p {
+    text-align: center;
+    color: var(--black);
+}
+
+.project > a {
+    text-decoration: none;
+    background-color: var(--polyGreen);
+    color: var(--black);
+    padding: 10px;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .projectSection > ul {
+        display: flex;
+        flex-direction: column;
+    }
+}

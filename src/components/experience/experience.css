@@ -1,0 +1,51 @@
+.experienceSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.experienceSection > h2 {
+    background-color: var(--racingGreen);
+    color: var(--black);
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experienceSection > ul {
+    padding: 15px;
+}
+
+.experienceList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.one {
+    color: var(--racingGreen);
+    font-weight: bold;
+}
+
+.two {
+    color: var(--black);
+    background-color: var(--ebony);
+    width: 15%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.three {
+    color: var(--polyGreen);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .two {
+        width: 40%
+    }
+}

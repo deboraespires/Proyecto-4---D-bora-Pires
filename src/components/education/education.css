@@ -1,0 +1,53 @@
+.educationSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.educationSection > h2 {
+    background-color: var(--racingGreen);
+    color: var(--black);
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+.container > h3 {
+    color: var(--racingGreen);
+    font-weight: bold;
+}
+
+.container > h4 {
+    color: var(--black);
+    background-color: var(--ebony);
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.container > ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container > h4 {
+        width: 60%
+    }
+    .container > ul {
+        display: flex;
+        flex-direction: column;
+    }
+}

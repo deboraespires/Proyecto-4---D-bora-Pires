@@ -1,0 +1,24 @@
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    top: 0;
+    background-color: var(--ebony);
+}
+
+header > button {
+    border: none;
+    background-color: var(--ebony);
+    color: var(--racingGreen);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    header > button {
+        font-size: 15px;
+    }
+}

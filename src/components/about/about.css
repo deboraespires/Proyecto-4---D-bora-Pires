@@ -1,0 +1,93 @@
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aboutSection > h2 {
+    background-color: var(--racingGreen);
+    color: var(--black);
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px
+}
+
+.container > img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container > h2 {
+    color: var(--racingGreen);
+    font-size: 35px;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+    color: var(--black);
+}
+
+.container > a {
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--ebony);
+    font-weight: bold;
+    width: 20%;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.skillContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.skillContainer > p {
+    color: var(--polyGreen);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skills {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skills > li {
+    background-color: var(--polyGreen);
+    color: var(--black);
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container > a {
+        width: 50%
+    }
+    .skillContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+}
